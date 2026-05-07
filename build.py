@@ -539,7 +539,7 @@ footer.foot { margin-top: 80px; padding-top: 32px; border-top: 1px solid var(--l
     <h1>Steven's guide</h1>
     <p>Password to unlock</p>
     <form id="loginForm">
-      <input type="password" id="pw" autocomplete="current-password" autofocus>
+      <input type="password" id="pw" autocomplete="current-password" autocapitalize="off" autocorrect="off" spellcheck="false" autofocus>
       <button type="submit">Unlock</button>
       <div class="login-error" id="loginError"></div>
     </form>
