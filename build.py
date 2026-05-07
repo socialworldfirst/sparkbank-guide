@@ -8,7 +8,7 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from cryptography.hazmat.primitives import hashes
 
-PASSWORD = "claude"
+PASSWORD = "nerds"
 ITERATIONS = 100_000
 
 # ---------- Content ----------
